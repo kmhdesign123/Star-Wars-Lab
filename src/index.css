@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  gap: 20px;
+}
+.card-details {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+button {
+  border-width: 0;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(250, 225, 0);
+}
